@@ -1,7 +1,17 @@
 ## 实验二运行示例
 
 + 在python==3.8的环境下，安装requirements.txt文件中的安装包
-+ 配置数据库![image-20240517210304868](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240517210304868.png)
+
++ 配置数据库
+
+  ```
+              host="localhost", 
+              user="root", 
+              passwd="123456",
+              db="lab2"
+  ```
+
+  
 
 + 创建数据库代码
 
@@ -30,4 +40,5 @@
   
 
 + 使用命令行cd 到项目文件夹下
+
 + 使用`streamlit run home.py`在命令行中运行文件即可在网页显示
